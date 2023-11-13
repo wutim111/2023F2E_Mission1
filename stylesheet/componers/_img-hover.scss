@@ -1,15 +1,30 @@
 .img-hover-fb{
-    &:hover{
+    &:hover,:focus{
         content:url("/img/nav-Facebook-hover.png");
     }
 }
 .img-hover-ig{
-    &:hover{
+    &:hover,:focus{
         content:url("/img/nav-Instagram-hover.png");
     }
 }
 .img-hover-share{
-    &:hover{
+    &:hover,:focus{
         content:url("/img/nav-Share-hover.png");
+    }
+}
+.footer-hover-fb{
+    &:hover,:focus{
+        content:url("/img/footer-Facebook-hover.png");
+    }
+}
+.footer-hover-ig{
+    &:hover,:focus{
+        content:url("/img/footer-Instagram-hover.png");
+    }
+}
+.footer-hover-x{
+    &:hover,:focus{
+        content:url("/img/footer-pajamas_twitter-hover.png");
     }
 }

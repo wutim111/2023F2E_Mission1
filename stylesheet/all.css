@@ -11987,16 +11987,28 @@ textarea.form-control-lg {
   font-family: "Barlow", sans-serif;
 }
 
-.img-hover-fb:hover {
+.img-hover-fb:hover, .img-hover-fb :focus {
   content: url("/img/nav-Facebook-hover.png");
 }
 
-.img-hover-ig:hover {
+.img-hover-ig:hover, .img-hover-ig :focus {
   content: url("/img/nav-Instagram-hover.png");
 }
 
-.img-hover-share:hover {
+.img-hover-share:hover, .img-hover-share :focus {
   content: url("/img/nav-Share-hover.png");
+}
+
+.footer-hover-fb:hover, .footer-hover-fb :focus {
+  content: url("/img/footer-Facebook-hover.png");
+}
+
+.footer-hover-ig:hover, .footer-hover-ig :focus {
+  content: url("/img/footer-Instagram-hover.png");
+}
+
+.footer-hover-x:hover, .footer-hover-x :focus {
+  content: url("/img/footer-pajamas_twitter-hover.png");
 }
 
 .menu-open .navbar-brand img {
