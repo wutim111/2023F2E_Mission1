@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./stylesheet/all.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid d-flex position-relative py-2">
         <div class="d-flex align-items-center">
           <a class="navbar-brand me-0" style="max-width: 280px;" href="#">
@@ -70,21 +70,105 @@
         </ul>
       </div>
     </nav>
-    <section class="position-relative">
-      <img src="./img/banner-bg.png" alt="" class="img-fluid">
-      <div class="position-absolute d-flex flex-row" style="top:10%; left: 15%;">
-      <div class=" d-flex flex-column" >
-        <img src="./img/cat.png" alt="" class="img-fluid w-75">
-          <div class="flex-row position-relative">
-            <img src="./img/cat-shadow.png" class="img-fluid w-75 position-absolute" style="top: -15px; left:-10px;" alt="">
-            <img src="./img/cat-shadow.png" class="img-fluid w-75 position-absolute" style="top: -15px; left: 50px;" alt="">
+    <section class="banner w-100 overflow-hidden" >
+      <div class="container" style="padding-top: 110px;">
+        <div class="row d-flex justify-content-center">
+          <div class="col-4">
+            <img src="./img/cat.png" class="img-fluid " alt="">
+          </div>
+          <div class="col-6 d-flex flex-column justify-content-center align-items-center text-center pt-5">
+            <img src="./img/logo-green.png" class="pt-5 pb-3 img-fluid w-50" alt="">
+            <h2 class=" fw-medium display-3">台 灣 的 明 天 <br>喵 先 鋪 路</h2>
+            <h4 class="mt-5 border border-dark p-2">2024立委3號參選人 少年立委 勤政愛民 愛您！！</h4>
+          </div>
+          <div class="col-2 text-center d-flex flex-row">
+            <div class=" d-flex justify-content-center ">
+              <h4 class="mt-5">
+                <span class="barlow">
+                20 <br>
+                24 <br> 
+                </span>
+                |<br>
+                <span class="barlow">
+                01 <br>
+                </span>
+                |<br>
+                <span class="barlow">
+                13 <br>
+                </span>
+                由<br>
+                您<br>
+                選<br>
+                擇<br>
+                <br>
+                台 <br>
+                灣 <br>
+                的 <br>
+                未<br>
+                來
+              </h4>
+            </div>
+            <div class="ms-3 d-flex flex-column justify-content-center">
+              <h4 class="text-white fw-bold">
+                <span class="bg-success px-3 py-2  rounded-circle barlow">3</span>
+                <br>
+                <br>
+                <div class="bg-dark barlow px-2 p-1 d-flex flex-column">
+                  36
+                  <span class="date">DAY</span>
+                </div>
+                <div class="mt-2 bg-dark barlow px-2 p-1 d-flex flex-column">
+                  07
+                  <span class="date">HOUR</span>
+                </div>
+                <div class="mt-2 bg-dark barlow px-2 p-1 d-flex flex-column">
+                  58
+                  <span class="date">SEC</span>
+                </div>
+              </h4>
+            </div>
           </div>
         </div>
-      <div class="mt-5 d-flex flex-column  align-items-center ms-5" >
-        <img src="./img/logo-green.png" alt="#" class="mt-5 img-fluid w-50">
-        <h2 class="display-1 fw-bold text-center mt-3">台 灣 的 明 天 <br> 喵 先 鋪 路 </h2>
-        <h3 class="ms-5 border p-2 fw-medium" style="border-color: black !important;"><span class="barlow">2024</span>立委<span class="barlow">3</span>號參選人 少年立委 勤政愛民 愛您！！</h3>
       </div>
+      <div class="d-flex flex-nowarp container-bottom ">
+        <h2 class=" display-5 text-white fw-medium ">少 年 立 委 <img src="./img/vote-mark.png" class="img-fluid h-50" alt=""> 清 流 參 選　凍 蒜 !　凍 蒜 !　台 灣 的 明 天 </h2>  
+      
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row position-relative">
+          
+          <div class="col-6" >
+            <div class="ms-5 position-relative d-flex flex-column " >
+              <img src="./img/advocate-bg.png" style="top:-150px;" class="img-fluid position-absolute" alt="">
+              <h2 class="barlow display-4 text-warning position-absolute" style="top:-30px; font-weight: 275;"> A D V O C A T E</h2>
+              
+              <div class="position-absolute d-flex align-items-end">
+                <h2 class="fw-bold display-5 mb-0">候選人主張</h2>
+                <div class="ms-5 fw-medium advocate-name position-relative">
+                  喵立翰
+                  <span class="position-absolute" style="left :-56px; bottom:-20px;">MIAO LI-HAN</span>
+                </div>
+              </div>
+              <h3 style="margin-top: 200px;" class=" text-success fw-bold">我堅信!</h3>
+              <br>
+              <p class="fs-5 fw-bold mb-5">
+                藉由推動更完善的貓咪福利和相關政策，<br>
+                更是間接地投資於 <span class="text-warning fs-2">台灣的未來</span>
+              </p>
+              <p class="mb-5">
+                畢竟，民眾的身心健康與工作熱情是推動經濟的核心動力。透過<br>
+                完善的貓咪福利政策，為台灣的 GDP 經濟帶來巨大效益。
+              </p>
+              <p class="mb-5">因此，我期望能在立法院內推進這些政策，確保每一隻貓咪都能<br> 
+                得到他們應有的照顧，同時也為台灣的經濟發展助一臂之力。</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="./img/advocate-cat.png" class="img-fluid w-100" alt="">
+          </div>
+        </div>
       </div>
     </section>
     <footer class="footer bg-dark text-white py-5">

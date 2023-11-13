@@ -12054,4 +12054,44 @@ textarea.form-control-lg {
 
 .navbar-toggler:focus {
   box-shadow: none;
+}
+
+.date {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.banner {
+  margin-top: 5px;
+  height: 980px;
+  background-image: url("../img/banner-bg.png");
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-bottom {
+  margin-top: 180px;
+  width: 105%;
+  transform: rotate(8.16deg) translate(-20px, 10px);
+  background-image: url("../img/container-bottom.png");
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+  background-position: center center;
+}
+.container-bottom::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 50px;
+  transform: rotate(8.16deg);
+  background-image: url("../img/container-bottom.png");
+}
+.container-bottom::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 50px;
+  transform: rotate(8.16deg);
+  background-image: url("../img/container-bottom.png");
 }/*# sourceMappingURL=all.css.map */
