@@ -11999,6 +11999,14 @@ textarea.form-control-lg {
   content: url("/img/nav-Share-hover.png");
 }
 
+.menu-open .navbar-brand img {
+  opacity: 0;
+}
+.menu-open #menu-open-img {
+  display: flex !important;
+  opacity: 1 !important;
+}
+
 .nav-link-hover {
   position: relative;
 }
@@ -12024,4 +12032,14 @@ textarea.form-control-lg {
     width: 2px;
     background-color: #ffc107;
   }
+}
+
+@media (max-width: 992px) {
+  .border-bottom-phone {
+    border-bottom: 1px solid black;
+  }
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }/*# sourceMappingURL=all.css.map */
