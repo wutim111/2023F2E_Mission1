@@ -1,0 +1,27 @@
+.nav-link-hover{
+    position: relative;
+    @media (min-width:992px) {
+        &:hover{
+            border-top: 1px solid $dark;
+            border-bottom: 1px solid $dark;
+            &:after {
+                content: '';
+                position: absolute;
+                top:10%;
+                height: 0.9em;
+                width: 1.5px;
+                background-color: $warning;
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                top:10%;
+                left:-3%;
+                height: 0.9em;
+                width: 2px;
+                background-color: $warning;
+            }
+        }
+    }
+    
+}

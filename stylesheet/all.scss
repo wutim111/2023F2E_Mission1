@@ -57,3 +57,5 @@
     src: local('GenSekiGothic TW TTF Regular'), local('GenSekiGothicTW-Regular'), url('https://cdn.jsdelivr.net/gh/ButTaiwan/genseki-font@master/TW/GenSekiGothicTW-Regular.ttf')  format('truetype');
 }
 @import "./componers/barlow";
+@import "./componers/img-hover";
+@import "./componers/nav-link-hover";
