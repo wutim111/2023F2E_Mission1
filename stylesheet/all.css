@@ -11985,4 +11985,43 @@ textarea.form-control-lg {
 }
 .barlow {
   font-family: "Barlow", sans-serif;
+}
+
+.img-hover-fb:hover {
+  content: url("/img/nav-Facebook-hover.png");
+}
+
+.img-hover-ig:hover {
+  content: url("/img/nav-Instagram-hover.png");
+}
+
+.img-hover-share:hover {
+  content: url("/img/nav-Share-hover.png");
+}
+
+.nav-link-hover {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .nav-link-hover:hover {
+    border-top: 1px solid #212529;
+    border-bottom: 1px solid #212529;
+  }
+  .nav-link-hover:hover:after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    height: 0.9em;
+    width: 1.5px;
+    background-color: #ffc107;
+  }
+  .nav-link-hover:hover::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: -3%;
+    height: 0.9em;
+    width: 2px;
+    background-color: #ffc107;
+  }
 }/*# sourceMappingURL=all.css.map */
