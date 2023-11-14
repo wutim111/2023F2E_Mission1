@@ -1,25 +1,8 @@
 .container-bottom{
-    margin-top: 12%;
+    margin-top: 13%;
     width: 105%;
     transform: rotate(8.16deg) translate(-20px, 10px); 
     background-image: url('../img/container-bottom.png');
     object-fit: contain; 
-    overflow:hidden;
     background-position: center center ;
-    &::before{
-        content: '';
-        display: block;
-        height: 100%;
-        width: 50px;
-        transform: rotate(8.16deg); 
-        background-image: url('../img/container-bottom.png');
-    }
-    &::after{
-        content: '';
-        display: block;
-        height: 100%;
-        width: 50px;
-        transform: rotate(8.16deg); 
-        background-image: url('../img/container-bottom.png');
-    }
 }

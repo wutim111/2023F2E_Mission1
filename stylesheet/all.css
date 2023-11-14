@@ -11988,27 +11988,47 @@ textarea.form-control-lg {
 }
 
 .img-hover-fb:hover, .img-hover-fb :focus {
-  content: url("/img/nav-Facebook-hover.png");
+  content: url("../img/nav-Facebook-hover.png");
 }
 
 .img-hover-ig:hover, .img-hover-ig :focus {
-  content: url("/img/nav-Instagram-hover.png");
+  content: url("../img/nav-Instagram-hover.png");
 }
 
 .img-hover-share:hover, .img-hover-share :focus {
-  content: url("/img/nav-Share-hover.png");
+  content: url("../img/nav-Share-hover.png");
+}
+
+.img-latest-btn:hover, .img-latest-btn :focus {
+  content: url("../img/latest_event-btn-hover.png");
+}
+
+.img-latest-right-arrow:hover, .img-latest-right-arrow :focus {
+  content: url("../img/latest_event-right-arrow-hover.png");
+}
+
+.img-latest-left-arrow:hover, .img-latest-left-arrow :focus {
+  content: url("../img/latest_event-left-arrow-hover.png");
+}
+
+.img-bubble-hover:hover, .img-bubble-hover :focus {
+  content: url("../img/bubble-body-hover.png");
+}
+.img-bubble-hover:hover::after, .img-bubble-hover :focus::after {
+  position: absolute;
+  content: "123456";
 }
 
 .footer-hover-fb:hover, .footer-hover-fb :focus {
-  content: url("/img/footer-Facebook-hover.png");
+  content: url("../img/footer-Facebook-hover.png");
 }
 
 .footer-hover-ig:hover, .footer-hover-ig :focus {
-  content: url("/img/footer-Instagram-hover.png");
+  content: url("../img/footer-Instagram-hover.png");
 }
 
 .footer-hover-x:hover, .footer-hover-x :focus {
-  content: url("/img/footer-pajamas_twitter-hover.png");
+  content: url("../img/footer-pajamas_twitter-hover.png");
 }
 
 .menu-open .navbar-brand img {
@@ -12070,28 +12090,24 @@ textarea.form-control-lg {
 }
 
 .container-bottom {
-  margin-top: 12%;
+  margin-top: 13%;
   width: 105%;
   transform: rotate(8.16deg) translate(-20px, 10px);
   background-image: url("../img/container-bottom.png");
   -o-object-fit: contain;
      object-fit: contain;
-  overflow: hidden;
   background-position: center center;
 }
-.container-bottom::before {
-  content: "";
-  display: block;
-  height: 100%;
-  width: 50px;
-  transform: rotate(8.16deg);
-  background-image: url("../img/container-bottom.png");
+
+.border-bottom-warning {
+  border-bottom: 8px solid #ffc107;
 }
-.container-bottom::after {
-  content: "";
-  display: block;
-  height: 100%;
-  width: 50px;
-  transform: rotate(8.16deg);
-  background-image: url("../img/container-bottom.png");
+
+.border-start-warning {
+  border-left: 8px solid #ffc107;
+}
+
+.border-latest_event-bottom {
+  border-top: 2px solid #212529;
+  border-bottom: 2px solid #212529;
 }/*# sourceMappingURL=all.css.map */

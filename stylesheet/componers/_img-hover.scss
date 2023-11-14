@@ -1,30 +1,57 @@
 .img-hover-fb{
     &:hover,:focus{
-        content:url("/img/nav-Facebook-hover.png");
+        content:url("../img/nav-Facebook-hover.png");
     }
 }
 .img-hover-ig{
     &:hover,:focus{
-        content:url("/img/nav-Instagram-hover.png");
+        content:url("../img/nav-Instagram-hover.png");
     }
 }
 .img-hover-share{
     &:hover,:focus{
-        content:url("/img/nav-Share-hover.png");
+        content:url("../img/nav-Share-hover.png");
     }
 }
+
+.img-latest-btn{
+    &:hover,:focus{
+        content:url("../img/latest_event-btn-hover.png");
+    }
+}
+.img-latest-right-arrow{
+    &:hover,:focus{
+        content:url("../img/latest_event-right-arrow-hover.png");
+    }
+}
+.img-latest-left-arrow{
+    &:hover,:focus{
+        content:url("../img/latest_event-left-arrow-hover.png");
+    }
+}
+
+.img-bubble-hover{
+    &:hover,:focus{
+        content:url("../img/bubble-body-hover.png");
+        &::after{
+            position: absolute;
+            content: '123456';
+        }
+    }
+}
+
 .footer-hover-fb{
     &:hover,:focus{
-        content:url("/img/footer-Facebook-hover.png");
+        content:url("../img/footer-Facebook-hover.png");
     }
 }
 .footer-hover-ig{
     &:hover,:focus{
-        content:url("/img/footer-Instagram-hover.png");
+        content:url("../img/footer-Instagram-hover.png");
     }
 }
 .footer-hover-x{
     &:hover,:focus{
-        content:url("/img/footer-pajamas_twitter-hover.png");
+        content:url("../img/footer-pajamas_twitter-hover.png");
     }
 }
