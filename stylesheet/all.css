@@ -12076,11 +12076,6 @@ textarea.form-control-lg {
   box-shadow: none;
 }
 
-.date {
-  font-weight: 500;
-  font-size: 12px;
-}
-
 .banner {
   margin-top: 5px;
   height: 1000px;
@@ -12110,4 +12105,21 @@ textarea.form-control-lg {
 .border-latest_event-bottom {
   border-top: 2px solid #212529;
   border-bottom: 2px solid #212529;
+}
+
+.border-dark {
+  border: 2px solid #212529;
+}
+
+.sup-us {
+  background-color: #bebebe;
+}
+
+.sup-us-left {
+  padding-top: 200px;
+}
+
+.sup-us-right {
+  background-image: url("../img/sup-us-right.png");
+  background-size: cover;
 }/*# sourceMappingURL=all.css.map */
